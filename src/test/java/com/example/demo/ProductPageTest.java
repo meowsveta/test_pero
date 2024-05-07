@@ -20,7 +20,6 @@ public class ProductPageTest {
     @BeforeEach
     public void setUp() {
         Configuration.browserCapabilities = new ChromeOptions().addArguments("--remote-allow-origins=*");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Сеня\\Desktop\\chromedriver.exe");
         open("https://vk.com/club225299895?w=product-225299895_10044406");
     }
 
